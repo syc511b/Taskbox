@@ -10,7 +10,7 @@
 
 <script>
 //import HelloWorld from "./components/HelloWorld.vue";
-import TaskList from './components/TaskList.vue';
+import TaskList from './components/PureTaskList.vue';
 export default {
   name: "App",
   components: {
