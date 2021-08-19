@@ -45,10 +45,19 @@
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^7.0.0",
     "jest-vue-preprocessor": "^1.7.1",
+    "semantic-release": "^17.4.5",
     "typescript": "~3.9.3",
     "vue-jest": "^5.0.0-0",
     "vue-loader": "^16.2.0"
   },
+  "plugins": [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    "@semantic-release/changelog",
+    "@semantic-release/github",
+    "@semantic-release/npm",
+    "@semantic-release/git"
+  ],
   "eslintConfig": {
     "root": true,
     "env": {
